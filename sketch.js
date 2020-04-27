@@ -1,8 +1,8 @@
 class Configuration {
   constructor() {
     this.detail = 60;
-    this.color = "#ffe100";
-    this.background = "#444444";
+    this.color = "#23ff00";
+    this.background = "#252424";
     this.useBarnsley = true;
     this.name = "img_name";
     this.save = () => saveCanvas(canvas, this.name, "jpg");
